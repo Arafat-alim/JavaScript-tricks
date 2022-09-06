@@ -15,3 +15,5 @@ console.log(Object.getOwnPropertyDescriptors(user));
 console.log(user); // { username: 'Arafat', email: 'arafat@gmail.com' }
 delete user.username;
 console.log(user); //{ email: 'arafat@gmail.com' }
+
+console.log(Object.isExtensible(user)); //false
