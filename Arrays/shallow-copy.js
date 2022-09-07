@@ -23,3 +23,8 @@ console.log(arr); //[ 'red', 'blue', 'green' ]
 let spreadCopy = ["yello", ...arr, "pink"];
 console.log(spreadCopy); //[ 'yello', 'red', 'blue', 'green', 'pink' ]
 console.log(arr); //[ 'red', 'blue', 'green' ]
+let name = "Arafat";
+let nameSplit = name.split("");
+let nameCopy = [...name];
+console.log(nameCopy); //[ 'A', 'r', 'a', 'f', 'a', 't' ]
+console.log(nameSplit); //[ 'A', 'r', 'a', 'f', 'a', 't' ]
