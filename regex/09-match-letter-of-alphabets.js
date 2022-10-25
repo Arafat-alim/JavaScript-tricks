@@ -3,7 +3,4 @@ let quoteSample = "The quick brown fox jumps over the lazy dog.";
 let pattern = /[a-z]/gi;
 
 let result = quoteSample.match(pattern);
-let bool = pattern.test(quoteSample);
-
-console.log(result);
-console.log(bool); //true
+console.log(result); // Array(35) [ "T", "h", "e", "q", "u", "i", "c", "k", "b", "r", … ]
