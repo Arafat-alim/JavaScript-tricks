@@ -1,7 +1,7 @@
 //! Wildcard period
 let sentence = "There is a big bag and inside it a toy bug";
 //! FInd out the big bag and bug
-let regex = /b[aiu]g/g;
+let regex = /b[aiu]g/gi;
 
 let resultOne = sentence.match(regex);
 console.log(resultOne); //[ 'big', 'bag', 'bug' ]
