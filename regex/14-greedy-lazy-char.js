@@ -1,3 +1,6 @@
+//! Greedy  - means match longest possible string.
+//! Lazy (?) - means match shortest possible string.
+
 //! By default regex is greedy character
 let string = "titanic";
 let pattern = /t[a-z]*i/i; //greedy approach
